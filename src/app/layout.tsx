@@ -3,7 +3,7 @@ import "@/src/styles/globals.css";
 import { GeistSans } from 'geist/font'
 import { headers } from "next/headers";
 import { siteConfig } from "@/src/app/_config/site"
-import { TRPCReactProvider } from "@/src/trpc/react";
+// import { TRPCReactProvider } from "@/src/trpc/react";
 import { cn } from "@/src/server/utils"
 import { Analytics } from "@vercel/analytics/react"
 import { ThemeProvider } from "@/src/app/_components/theme-provider"
@@ -49,14 +49,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="light" suppressHydrationWarning style={{ scrollBehavior: 'smooth' }}>
       <body className={cn("bg-background min-h-screen font-sans antialiased ", GeistSans.className)}>
-        <TRPCReactProvider headers={headers()}>
+        {/* <TRPCReactProvider headers={headers()}> */}
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
             <Nav />
             {children}
             <Analytics />
             <Footer className={tw_presets().wrapper} />
           </ThemeProvider>
-        </TRPCReactProvider>
+        {/* </TRPCReactProvider> */}
       </body>
     </html>
   );
