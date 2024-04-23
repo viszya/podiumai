@@ -84,11 +84,11 @@ export default function Home() {
                       <Icons.brain className="h-5 w-5" />
                     </div>
                     <p className="mt-4 text-lg font-medium leading-6 text-black">
-                      AI Business Plan Generation
+                      AI Quiz Generation
                     </p>
                   </div>
                   <div className="mt-4 text-base text-gray-700">
-                    Create, analyze, and optimize business plans effortlessly.
+                    Create, practice, and see the results of quizzes generated from lecture recordings and track your progress
                   </div>
                 </div>
                 <div>
@@ -97,11 +97,11 @@ export default function Home() {
                       <Icons.album className="h-5 w-5" />
                     </div>
                     <p className="mt-4 text-lg font-medium leading-6 text-black">
-                      Product Building Instructions
+                     Generate Notes and Flashcards
                     </p>
                   </div>
                   <div className="mt-4 text-base text-gray-700">
-                    Step-by-step guidance for building your SAAS product.
+                    Auto-generated notes and flashcards based on class objectives
                   </div>
                 </div>
                 <div>
@@ -110,11 +110,11 @@ export default function Home() {
                       <Icons.blocks className="h-5 w-5" />
                     </div>
                     <p className="mt-4 text-lg font-medium leading-6 text-black">
-                      Project Management Tools
+                      Track Student Progress
                     </p>
                   </div>
                   <div className="mt-4 text-base text-gray-700">
-                    Stay organized with marketing events, website analytics, and finances tracking.
+                    Analyze the performance of students and track their progress
                   </div>
                 </div>
                 <div>
@@ -123,11 +123,11 @@ export default function Home() {
                       <Icons.zap className="h-5 w-5" />
                     </div>
                     <p className="mt-4 text-lg font-medium leading-6 text-black">
-                      Quick Launch Your SAAS
+                     Fast & Quick Generation
                     </p>
                   </div>
                   <div className="mt-4 text-base text-gray-700">
-                    Launch your SAAS product in just one week with PodiumAI.
+                    Generate learning material in seconds from hour-long lecture recordings
                   </div>
                 </div>
               </div>
@@ -141,10 +141,10 @@ export default function Home() {
           <div className="grid items-start grid-cols-1 lg:grid-cols-2">
             <div className="lg:pr-24 md:pr-12">
               <h2 className="mt-6 text-3xl font-medium text-black">
-                AI-Powegreen SAAS Development
+                A smart way to track student progress and weaknesses
               </h2>
               <p className="mt-5 text-base text-gray-700">
-                PodiumAI uses advanced AI algorithms to streamline the SAAS development process, making it faster and more efficient.
+                PodiumAI uses advanced AI algorithms to generate quizzes, notes, and flashcards from lecture recordings. It also tracks student progress and weaknesses to help them improve their learning experience.
               </p>
               <ul className="grid grid-cols-2 gap-4 mt-12 list-none lg:gap-6" role="list">
                 <li>
@@ -153,11 +153,11 @@ export default function Home() {
                       <Icons.link className="h-5 w-5" />
                     </div>
                     <p className="mt-5 text-lg font-medium leading-6 text-black">
-                      Prebuilt Integrations
+                      Seamless Integration
                     </p>
                   </div>
                   <div className="mt-2 text-base text-gray-700">
-                    Easily integrate with popular tools and services for seamless functionality.
+                    You are able to connect with students and teachers through classcodes
                   </div>
                 </li>
                 <li>
@@ -166,21 +166,21 @@ export default function Home() {
                       <Icons.boxes className="h-5 w-5" />
                     </div>
                     <p className="mt-5 text-lg font-medium leading-6 text-black">
-                      Flexible for All Stacks
+                    Adjust course material to student needs
                     </p>
                   </div>
                   <div className="mt-2 text-base text-gray-700">
-                    PodiumAI is compatible with various technology stacks, so you can use your prefergreen tools and languages.
+                    PodiumAI adjusts the generation based on class and topic objectives
                   </div>
                 </li>
               </ul>
             </div>
-            <div className="h-full mt-12 lg:mt-0 border-mercury-400 lg:border-l lg:pl-12">
+            <div className="h-full lg:mt-0 border-mercury-400 lg:border-l lg:pl-12">
               <div>
-                <div className='mt-16 flow-root sm:mt-24'>
+                <div className=' flow-root sm:mt-24'>
                   <div className='-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4'>
                     <Image
-                      src='/dashboard-preview-2.png'
+                      src='/preview4.png'
                       alt='product preview'
                       width={1364}
                       height={866}

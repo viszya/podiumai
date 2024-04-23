@@ -15,15 +15,15 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                                     <Icons.badge className="h-5 w-5"/>
                                 </div>
                                 <p className="mt-4 text-lg font-medium text-black lg:text-2xl">
-                                    Basic Plan
+                                    Free Tier
                                 </p>
                             </div>
                             <p className="mt-6">
-                                <span className="text-4xl text-black lg:text-6xl"> $19</span>
+                                <span className="text-4xl text-black lg:text-6xl"> $0</span>
                                 <span className="text-base font-medium text-gray-700"> /mo</span>
                             </p>
                             <p className="mt-6 text-sm text-gray-700">
-                                Start building your SAAS project with essential features.
+                                Interested in generating real-time resources from just your teacher&apos;s words? Create quizzes, notes, flashcards, in less than five seconds after class.
                             </p>
                             <p className="mt-4 text-lg font-medium text-black lg:text-2xl">
                                 Features
@@ -31,23 +31,23 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                             <ul className="gap-4 mt-6 space-y-3 list-none lg:gap-6" role="list">
                                 <li className="flex items-center">
                                     <Icons.badgeCheck />
-                                    <span className="ml-3 text-gray-700">AI-powegreen business plan</span>
+                                    <span className="ml-3 text-gray-700">Teachers create classes</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Icons.badgeCheck />
-                                    <span className="ml-3 text-gray-700">Product idea generation</span>
+                                    <span className="ml-3 text-gray-700">Students join classes</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Icons.badgeCheck />
-                                    <span className="ml-3 text-gray-700">Product building instructions</span>
+                                    <span className="ml-3 text-gray-700">Upload lectures</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Icons.badgeCheck />
-                                    <span className="ml-3 text-gray-700">Project management tools</span>
+                                    <span className="ml-3 text-gray-700">Distribute resources</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Icons.badgeCheck />
-                                    <span className="ml-3 text-gray-700">Analytics and tracking</span>
+                                    <span className="ml-3 text-gray-700">Instant resource generation</span>
                                 </li>
                             </ul>
                             <div className="mt-6">
@@ -68,7 +68,7 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                                 </p>
                             </div>
                             <p className="mt-6">
-                                <span className="text-4xl text-black lg:text-6xl"> $49</span>
+                                <span className="text-4xl text-black lg:text-6xl"> $12</span>
                                 <span className="text-base font-medium text-gray-700"> /mo</span>
                             </p>
                             <p className="mt-6 text-sm text-gray-700">
@@ -84,19 +84,15 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                                 </li>
                                 <li className="flex items-center">
                                     <Icons.badgeCheck className="text-green-300"/>
-                                    <span className="ml-3 text-gray-700">Marketing event tracking</span>
+                                    <span className="ml-3 text-gray-700">Extra token credits</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Icons.badgeCheck className="text-green-300"/>
-                                    <span className="ml-3 text-gray-700">Financial analysis tools</span>
+                                    <span className="ml-3 text-gray-700">Larger lecture recordings</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Icons.badgeCheck className="text-green-300"/>
-                                    <span className="ml-3 text-gray-700">Rapid SAAS product development</span>
-                                </li>
-                                <li className="flex items-center">
-                                    <Icons.badgeCheck className="text-green-300"/>
-                                    <span className="ml-3 text-gray-700">24/7 support</span>
+                                    <span className="ml-3 text-gray-700">More customizable quiz features</span>
                                 </li>
                             </ul>
                             <div className="mt-6">
