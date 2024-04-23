@@ -51,7 +51,7 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                                 </li>
                             </ul>
                             <div className="mt-6">
-                                <Link href="/dashboard" className="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-green-300 border-2 border-black rounded-full nline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black" aria-describedby="tier-starter">
+                                <Link href="https://testflight.apple.com/join/Gw2MNJoT" className="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-green-300 border-2 border-black rounded-full nline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black" aria-describedby="tier-starter">
                                     Get Started
                                 </Link>
                             </div>
@@ -72,7 +72,7 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                                 <span className="text-base font-medium text-gray-700"> /mo</span>
                             </p>
                             <p className="mt-6 text-sm text-gray-700">
-                                Unlock advanced features and supercharge your SAAS development.
+                                Unlock the full features of Podium and have unlimited credits to generate resources from your lectures.
                             </p>
                             <p className="mt-4 text-lg font-medium text-black lg:text-2xl">
                                 Features
@@ -96,7 +96,7 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                                 </li>
                             </ul>
                             <div className="mt-6">
-                                <Link href="/dashboard" className="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-black rounded-full nline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black" aria-describedby="tier-starter">
+                                <Link href="https://testflight.apple.com/join/Gw2MNJoT" className="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-black rounded-full nline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black" aria-describedby="tier-starter">
                                     Get Started
                                 </Link>
                             </div>

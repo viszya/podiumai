@@ -45,7 +45,7 @@ const Nav = async () => {
                 FAQ
               </Link> */}
               <Link
-              href='/'
+              href='https://testflight.apple.com/join/Gw2MNJoT'
                 className={buttonVariants({
                   size: 'sm',
                   className: "bg-gradient-to-r from-green-400 to-green-300 ease-in-out duration-200 hover:text-black hover:shadow-xl",

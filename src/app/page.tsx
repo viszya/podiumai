@@ -22,7 +22,7 @@ export default function Home() {
       <p className="mt-5 max-w-prose text-zinc-700 sm:text-lg">
          PodiumAI empowers students and educators to create educational material such as quizzes, notes, and summaries from lecture recordings.
       </p>
-      <Link href="/dashboard" className={buttonVariants({ size: "lg", className: "mt-4 bg-gradient-to-r from-green-400 to-teal-300 ease-in-out duration-200 hover:text-black hover:shadow-xl" })}>
+      <Link href="https://testflight.apple.com/join/Gw2MNJoT" className={buttonVariants({ size: "lg", className: "mt-4 bg-gradient-to-r from-green-400 to-teal-300 ease-in-out duration-200 hover:text-black hover:shadow-xl" })}>
         Get Started <Icons.arrowRight className="ml-2 h-5 w-5" />
       </Link>
 
