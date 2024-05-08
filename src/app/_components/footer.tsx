@@ -18,12 +18,10 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
                                 <p className="mt-1 text-sm">Perfect AI tool for increasing your grades</p>
                             </div>
                         </div>
-                        {/* <nav className="flex gap-8 mt-11">
-                            <a className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-green-300 transition-colors delay-150 hover:delay-0" href="#"><span className="relative z-10">FAQs</span></a>
-                            <a className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-green-300 transition-colors delay-150 hover:delay-0" href="#"><span className="relative z-10">Contact</span></a>
-                            <a className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-green-300 transition-colors delay-150 hover:delay-0" href="#"><span className="relative z-10">Terms</span></a>
-                            <a className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-green-300 transition-colors delay-150 hover:delay-0" href="#"><span className="relative z-10">Privacy Policy</span></a>
-                        </nav> */}
+                        <nav className="flex gap-8 mt-11">
+                            <a className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-green-300 transition-colors delay-150 hover:delay-0" href="/tos"><span className="relative z-10">Terms of Service</span></a>
+                            <a className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-green-300 transition-colors delay-150 hover:delay-0" href="/privacy"><span className="relative z-10">Privacy Policy</span></a>
+                        </nav>
                     </div>
                     <Link  href="mailto: viszy.a.musician@gmail.com"
                     className="relative flex items-center self-stretch p-4 -mx-4 transition-colors group hover:bg-gray-200/30 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">

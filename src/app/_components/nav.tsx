@@ -36,6 +36,22 @@ const Nav = async () => {
                 })}>
                 Pricing
               </Link>
+              <Link
+                href='/terms'
+                className={buttonVariants({
+                  variant: 'ghost',
+                  size: 'sm',
+                })}>
+                Terms of Service
+              </Link>
+              <Link
+                href='/privacy'
+                className={buttonVariants({
+                  variant: 'ghost',
+                  size: 'sm',
+                })}>
+                Privacy Policy
+              </Link>
               {/* <Link
                 href='/faq'
                 className={buttonVariants({
