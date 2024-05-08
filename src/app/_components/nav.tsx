@@ -7,7 +7,7 @@ import {
 } from '@kinde-oss/kinde-auth-nextjs/server'
 import { ArrowRight } from 'lucide-react'
 // import UserAccountNav from './UserAccountNav'
-import { tw_presets, cn } from '@/src/server/utils'
+import { twp, cn } from '@/src/server/utils'
 // import MobileNav from './MobileNav'
 
 const Nav = async () => {
@@ -16,7 +16,7 @@ const Nav = async () => {
 
   return (
     <nav className="sticky h-14 inset-x-0 top-0 z-30 w-full border-b border-gray-200 bg-white/10 backdrop-blur-lg transition-all">
-      <div className={cn("flex h-14 items-center justify-between border-b border-zinc-200", tw_presets().wrapper)}>
+      <div className={cn("flex h-14 items-center justify-between border-b border-zinc-200", twp().wrapper)}>
         <Link
           href='/'
           className='flex z-40 font-semibold'>

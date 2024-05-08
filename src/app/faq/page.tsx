@@ -4,12 +4,12 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/src/app/_components/ui/accordion"
-import { tw_presets } from "@/src/server/utils"
+import { twp } from "@/src/server/utils"
 import { cn } from "@/src/server/utils"
 
 const Page = () => {
     return (
-        <div className={cn("flex flex-col justify-center items-center", tw_presets().wrapper)}>
+        <div className={cn("flex flex-col justify-center items-center", twp().wrapper)}>
             <h2 className="mt-20 sm:mt-30 mb-2 text-center text-4xl font-bold">FAQ</h2>
             <Accordion type="single" collapsible className="text-left w-full max-w-sm md:max-w-lg lg:max-w-2xl h-[45rem] max-h-[45rem] md:h-[40rem] md:max-h-[40rem]">
                 <AccordionItem value="item-1">
