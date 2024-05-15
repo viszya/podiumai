@@ -37,7 +37,7 @@ const Nav = async () => {
                 Pricing
               </Link>
               <Link
-                href='/terms'
+                href='/tos'
                 className={buttonVariants({
                   variant: 'ghost',
                   size: 'sm',
