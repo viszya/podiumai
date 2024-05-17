@@ -5,8 +5,8 @@ export default function PrivacyPolicy() {
     <div className={cn(twp().wrapper, "mt-10 mb-20")}>
       <object className="pdf"
             data="/PodiumAI Terms.pdf"
-            width="800"
-            height="500">
+            width="100%"
+            height="800">
     </object>
     </div>
   );
