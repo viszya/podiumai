@@ -1,6 +1,6 @@
 // Imports
 import "@/src/styles/globals.css";
-import { GeistSans } from 'geist/font'
+import { GeistSans } from "geist/font/sans";
 import { headers } from "next/headers";
 import { siteConfig } from "@/src/app/_config/site"
 // import { TRPCReactProvider } from "@/src/trpc/react";
