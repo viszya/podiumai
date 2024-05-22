@@ -195,7 +195,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div id="pricing">
+      {/* <div id="pricing">
         <div className='relative isolate'>
           <div
             aria-hidden='true'
@@ -231,7 +231,7 @@ export default function Home() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </main >
   );
 }
