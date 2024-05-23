@@ -29,14 +29,6 @@ const Nav = async () => {
           {!(await user) ? (
             <>
               <Link
-                href='#pricing'
-                className={buttonVariants({
-                  variant: 'ghost',
-                  size: 'sm',
-                })}>
-                Pricing
-              </Link>
-              <Link
                 href='/tos'
                 className={buttonVariants({
                   variant: 'ghost',
